@@ -1,6 +1,18 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+input,button{
+	border: none;
+	outline: none;
+}
+
 body{
 	width: 100%;
-	min-height: 100vh;
+	overflow-x: hidden;
+	font-family: Helvetica-Bold;
 }
 
 :root{
@@ -9,9 +21,6 @@ body{
 
 .flex{
 	display: flex;
-}
-.align-items-center{
-    align-items: center;
 }
 
 .header-wrap{
@@ -116,6 +125,10 @@ slider-item{
 }
 .slider-item.active{
     display: flex;
+}
+
+.slider-title-wrap{
+    justify-content: center;
 }
 
 .flex-column{
@@ -307,3 +320,33 @@ slider-item{
     width: 200px;
 }
 
+textarea {
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.align-items-end{
+	align-items: flex-end;
+}
+
+.align-items-center{
+	align-items: center;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.div-center{
+	text-align: center;
+}
