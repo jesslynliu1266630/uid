@@ -266,21 +266,6 @@ button:hover{
 }
 
 
-.email-form .form input::-webkit-input-placeholder {
-    color: #FAF7F7;
-}
-
-.email-form .form input:-moz-placeholder { 
-   color: #FAF7F7;
-}
-
-.email-form .form input::-moz-placeholder {
-   color: #FAF7F7;
-}
-.email-form .form input:-ms-input-placeholder { 
-   color: #FAF7F7;
-}
-
 .line{
 	width: 100%;
 	height: 2px;
@@ -324,6 +309,34 @@ button:hover{
 	background: linear-gradient(180deg, rgba(206,119,119,0.51) 0%, rgba(206,119,119,0.51) 0%, rgba(180,103,103,0.61) 35%, rgba(155,88,88,0.76) 68%, rgba(142,80,80,0.94) 100%, rgba(142,80,80,0.94) 100%);
 }
 
+.my-nav{
+	position: relative;
+	width: 450px;
+	font-size: 20px;
+	flex-wrap: wrap;
+}
+
+.my-nav a{
+	color: #793D3B;
+	margin-right: 48px;
+	margin-bottom: 12px;
+	line-height: 40px;
+}
+
+.my-info{
+	align-items: center; 
+}
+
+.my-info .search-input{
+	width: 228px;
+	height: 50px;
+	border-radius: 25px;
+	background: #FAF7F7;
+	padding: 0 12px;
+	font-size: 16px;
+	color: #793D3B;
+	line-height: 50px;
+}
 
 
 
