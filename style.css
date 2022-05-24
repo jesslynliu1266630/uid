@@ -338,6 +338,36 @@ button:hover{
 	line-height: 50px;
 }
 
+.menu-wrap{
+	align-items: center;
+	position: relative;
+	padding: 20px 0;
+	background: rgba(250, 244, 228, 0.64);
+}
+
+.menu{
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.menu .icon{
+	width: 20px;
+	position: absolute;
+	right: 48px;
+}
+
+.menu-item {
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 360px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+
+
+
 
 
 *{
