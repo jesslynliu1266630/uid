@@ -320,7 +320,7 @@ button:hover{
 	color: #793D3B;
 	margin-right: 48px;
 	margin-bottom: 12px;
-	line-height: 40px;
+	line-height: 50px;
 }
 
 .my-info{
@@ -365,10 +365,56 @@ button:hover{
 	text-align: center;
 }
 
+.shop-wrap{
+	position: relative;
+	background: #FFFDF6;
+	padding: 48px 0;
+	align-items: center;
+}
 
+.shop .sidebar{
+	padding: 20px 36px;
+	border-radius: 36px;
+	border: 2px solid #000000;
+	color: #000;
+	justify-content: center;
+	align-items: center;
+}
 
+.shop .sidebar .sidebar-title{
+	font-size: 24px;
+	font-weight: 500;
+}
+.shop .select-item{
+	align-items: center;
+	margin-bottom: 12px;
+}
 
+.bottom-wrap{
+	color: #FAF7F7;
+	padding: 12px 0;
+	background: linear-gradient(180deg, rgba(206,119,119,0.51) 0%, rgba(206,119,119,0.51) 0%, rgba(180,103,103,0.61) 35%, rgba(155,88,88,0.76) 68%, rgba(142,80,80,0.94) 100%, rgba(142,80,80,0.94) 100%);
+}
 
+.bottom{
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bottom-wrap .bottom-links,.bottom-wrap .bottom-form,.bottom-wrap .bottom-app{
+	width: 420px;
+	text-align: center;
+}
+
+.bottom .bottom-links-tilte{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+.bottom-icon .icon{
+	width: 40px;
+	margin-right: 48px;
+}
 
 *{
 	margin: 0;
@@ -379,7 +425,7 @@ button:hover{
 body{
 	width: 100%;
 	overflow-x: hidden;
-	font-family: Helvetica-Bold;
+	font-family: Helvetica-bold;
 }
 
 button {
@@ -395,14 +441,14 @@ textarea {
 
 @font-face {
 	font-family: "Helvetica-Bold";
-	src: url("../font/helvetica-light.otf");
+	src: url("./font/helvetica-light.otf");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "BM Yeonsung-Regular";
-	src: url("../font/YeonSung-Regular.ttf");
+	src: url("./font/YeonSung-Regular.ttf");
 	font-weight: 400;
 	font-style: normal;
 }
