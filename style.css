@@ -179,6 +179,18 @@ button:hover{
 	color: #000000;
 }
 
+.list-title{
+	font-size: 40px;
+	color: #000;
+}
+
+.menu .subtitle{
+	font-size: 22px;
+	color: #000;
+}
+
+
+
 .product-list{
 	border-radius: 22px;
 	background: #F4E7CE;
