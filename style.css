@@ -752,3 +752,148 @@ button:hover{
 	min-height: 60px;
 }
 
+.my-cart-content{
+	justify-content: space-between;
+}
+
+.my-cart-content .left{
+	/* width: 1000px; */
+	
+}
+.my-cart-content .left{
+	width: 1764px;
+	background: #FCF6E7;
+	border: 3px solid #793D3B;
+	padding: 24px 36px;
+	border-radius: 50px;
+	color: #000;
+	font-size: 40px;
+	max-height: 381px;
+}
+
+.my-cart-item {
+	width: 100%;
+	position: relative;
+	background: #FCF6E7;
+	border: 3px solid #793D3B;
+	padding: 24px 36px;
+	border-radius: 40px;
+	color: #000;
+	font-size: 40px;
+	/* max-height: 232px; */
+}
+
+.my-cart-item .info{
+	justify-content: space-between;
+	align-items: center;
+}
+.my-cart-item .name{
+	justify-content: space-between;
+}
+
+.my-cart-item .price-value{
+	font-size: 40px;
+	color: #DB4742;
+}
+
+.my-cart-content .left .img{
+	width: 200px;
+	height: 160px;
+}
+
+.my-cart-item  .count{
+	position: absolute;
+	left: 842;
+	width: 100%;
+	justify-content: center;
+}
+
+.checkout-btn{
+	width: 260px;
+	height: 50px;
+	border-radius: 12px;
+	background: rgba(132, 50, 50, 0.78);
+	font-size: 22px;
+	color: #FAF7F7;
+	margin-top: 50px;
+}
+
+.top{
+	padding: 24px 0;
+	background: linear-gradient(180deg, rgba(206,119,119,0.51) 0%, rgba(206,119,119,0.51) 0%, rgba(180,103,103,0.61) 35%, rgba(155,88,88,0.76) 68%, rgba(142,80,80,0.94) 100%, rgba(142,80,80,0.94) 100%);
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+}
+
+.top .logo{
+	width: 400px;
+}
+
+.top .progress{
+	margin-top: 12px;
+	align-items: center;
+}
+
+.top .progress img{
+	width: 20px;
+	margin-top: 6px;
+}
+
+.current-status{
+	color: #FFFDF6;
+}
+
+.checkout-wrap{
+	background-color: #FFFDF6;
+	padding: 48px 0;
+}
+
+.checkout-wrap .left ,.checkout-wrap .right{
+	flex: 1;
+	align-items: center;
+}
+
+.checkout .paypal-wrap{
+	padding: 12px 100px 8px 100px;
+	border-radius: 9999px;
+	background: #FCF4DF;
+}
+
+.checkout .paypal-wrap img{
+	width: 120px;
+}
+
+.checkout-form-item{
+	position: relative;
+	width: 700px;
+	font-size: 20px;
+	height: 70px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	background: transparent;
+	padding: 0 24px;
+}
+
+ input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 18px;
+	position: relative;
+}
+
+input[type="checkbox"]:checked::before {
+	content: "\2713";
+	background: #793D3B;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border: 1px solid #793D3B; 
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
