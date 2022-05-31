@@ -67,11 +67,11 @@ button:hover{
 }
 
 .shop-btn button{
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 50px;
 	letter-spacing: 0px;
 	color: #FAF7F7;
-	padding: 18px 75px;
+	padding: 12px 55px;
 	border-radius: 60px;
 	background: #BB9494;
 }
@@ -138,6 +138,7 @@ button:hover{
 	margin-right: 12px;
 	opacity: 0.5;
 }
+
 .dot-item.active{
 	opacity: 1;
 }
@@ -156,6 +157,7 @@ button:hover{
 	display: none;
 	transition: all 2s;
 }
+
 .slider-item.active{
 	display: flex;
 }
@@ -277,6 +279,20 @@ button:hover{
 	color: #FAF7F7;
 }
 
+.email-form .form input::-webkit-input-placeholder {
+    color: #FAF7F7;
+}
+
+.email-form .form input:-moz-placeholder { 
+   color: #FAF7F7;
+}
+
+.email-form .form input::-moz-placeholder {
+   color: #FAF7F7;
+}
+.email-form .form input:-ms-input-placeholder { 
+   color: #FAF7F7;
+}
 
 .line{
 	width: 100%;
@@ -298,22 +314,6 @@ button:hover{
 	font-weight: 500;
 }
 
-.app {
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-.app a{
-	width: 80px;
-	height: 30px;
-	line-height: 28px;
-	background: #FFFFFF;
-	border: 1px solid #000000;
-	font-size: 12px;
-	color: #843232;
-	font-weight: 500;
-	border-radius: 9px;
-	margin-bottom: 12px;
-}
 
 .index-bottom-wrap{
 	padding: 12px 0;
@@ -451,6 +451,23 @@ button:hover{
 .bottom-icon .icon{
 	width: 40px;
 	margin-right: 48px;
+}
+
+.app {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.app a{
+	width: 80px;
+	height: 30px;
+	line-height: 28px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	font-size: 12px;
+	color: #843232;
+	font-weight: 500;
+	border-radius: 9px;
+	margin-bottom: 12px;
 }
 
 .down-menu-wrap{
@@ -896,4 +913,237 @@ input[type="checkbox"]:checked::before {
 	font-size: 20px;
 	font-weight: bold;
 	color: #fff;
+}
+
+.checkout .way{
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	padding: 32px 24px;
+}
+
+.checkout  .circle{
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+	border-radius: 9999px;
+}
+
+.checkout .fullname{
+	justify-content: space-between;
+}
+
+.checkout .fullname .Firstname{
+	width: 400px;
+}
+
+.checkout .fullname .Lastname{
+	width: 250px;
+}
+
+.checkout .submit-list{
+	justify-content: space-between;
+}
+
+.checkout .form-selector{
+	justify-content: space-between;
+}
+
+.checkout .select-item{
+	width: 220px;
+	height: 70px;
+	border: 3px solid #000000;
+	font-size: 22px;
+	justify-content: space-between;
+	padding: 0 12px;
+	position: relative;
+}
+
+.checkout .down-select-list{
+	width: 220px;
+	z-index: 999;
+	position: absolute;
+	top: 68px;
+	left: -3px;
+	background-color: #FFFFFF;
+	font-size: 22px;
+}
+
+.checkout input::-webkit-input-placeholder {
+	color: #707070;
+ }
+ 
+ .checkout input:-moz-placeholder { 
+   color: #707070;
+ }
+ 
+ .checkout input::-moz-placeholder {
+	color: #707070;
+ }
+
+ .checkout input:-ms-input-placeholder { 
+	color: #707070;
+ }
+
+.checkout .submit-list{
+	justify-content: space-between;
+}
+
+.pro-info {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pro-info img{
+	width: 200px;
+	height: 200px;
+}
+
+.checkout .form-input{
+	position: relative;
+}
+
+.checkout .icon-down{
+	position: absolute;
+	right: 24px;
+}
+
+
+
+.checkout .continue-btn{
+	width: 300px;
+	height: 60px;
+	background: rgba(132, 50, 50, 0.78);
+	font-size: 22px;
+	color: #FAF7F7;
+	border-radius: 12px;
+}
+
+.checkout .return-btn{
+	width: 300px;
+	height: 60px;
+	background: transparent;
+	font-size: 22px;
+	color:#9F5E5D;
+	border-radius: 12px;
+	border: 3px solid #843232;
+}
+
+.checkout .apply-wrap{
+	justify-content: space-between;
+}
+
+.checkout .apply-wrap button{
+	width: 130px;
+	background: #9F5E5D;
+	height: 70px;
+	color: #FFFDF6;
+	font-size: 32px;
+}
+
+.check-link a{
+	font-size: 22px;
+	color: #9F5E5D;
+	text-decoration: none;
+	margin-right: 24px;
+}
+
+.checkout .form-contact{
+	border: 3px solid #000000;
+	overflow: hidden;
+}
+
+.checkout .form-contact .item{
+	height: 70px;
+	font-size: 22px;
+	padding:  0 24px;
+}
+
+.checkout .hr{
+	height: 3px;
+	background-color: #000;
+}
+
+.checkout .app-item{
+	padding: 4px 8px;
+	font-size: 16px;
+	color: #843232;
+	margin-right: 12px;
+	border: 1px solid #000000;
+}
+
+.checkout .form-item-padding{
+	position: relative;
+	padding: 0 24px;
+}
+
+.checkout .lock{
+	position: absolute;
+	right: 48px;
+}
+
+.checkout .paypal-form {
+	padding: 24px;
+}
+
+.radio_type {
+    width: 24px;
+    height: 24px;
+    appearance: none;
+    position: relative;
+    outline: none;
+}
+
+.radio_type:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio_type:checked:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio_type:checked:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    background: #000;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.radio_type:checked + label {
+    color: #edd19d;
+}
+
+.checkout-wrap .payment{
+	border: 3px dashed  #955B5B;
+	padding: 12px 0;
+	width: 800px;
+	border-radius: 8px;
+}
+
+
+.checkout-wrap .continue-btn{
+	width: 320px;
+	height: 68px;
+	background: rgba(132, 50, 50, 0.78);
+	border-radius: 8px;
+	color: #FAF7F7;
+	font-size: 24px;
 }

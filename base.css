@@ -38,6 +38,10 @@ a:hover {
 	cursor: pointer;
 }
 
+.hide{
+	display: none;
+}
+
 .flex{
 	display: flex;
 }
@@ -195,10 +199,45 @@ a:hover {
 .div-right {
 	text-align: right;
 }
+.width20{
+	width: 20px;
+}
+
+.width24{
+	width: 24px;
+	height: 24px;
+}
 
 .width36{
 	width: 36px;
 	height: 36px;
+}
+.width200{
+	width: 200px;
+}
+
+.width220{
+	width: 220px;
+}
+
+.width340{
+	width: 300px;
+}
+
+.width600{
+	width: 600px;
+}
+
+.width644{
+	width: 644px;
+}
+
+.width680{
+	width: 680px;
+}
+
+.width700{
+	width: 700px;
 }
 
 .center{
@@ -226,6 +265,11 @@ a:hover {
 	color: #000;
 }
 
+.bottom20{
+	margin-bottom: 20px;
+}
+
+
 .bottom40{
 	margin-bottom: 40px;
 }
@@ -237,22 +281,3 @@ a:hover {
 .flex1{
 	flex: 1;
 }
-
-.width24{
-	width: 24px;
-	height: 24px;
-}
-
-.width20{
-	width: 20px;
-}
-
-.width200{
-	width: 200px;
-}
-
-.width700{
-	width: 700px;
-}
-
-
