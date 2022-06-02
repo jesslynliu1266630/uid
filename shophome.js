@@ -10,7 +10,7 @@ window.onload = function(){
     })
     
     searchBtn.addEventListener('click',function(){
-        location.href = 'searchresult.html'
+        location.href = 'searchresults.html'
     })
     
     menu.addEventListener('mouseenter',function(){

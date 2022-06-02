@@ -426,6 +426,20 @@ button:hover{
 	margin-bottom: 12px;
 }
 
+.shop .select-item a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+}
+
+.shop .select-item .icon{
+	width: 10px;
+	height: 10px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	margin-right: 16px;
+}
+
 .bottom-wrap{
 	color: #FAF7F7;
 	padding: 12px 0;

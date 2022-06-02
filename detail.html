@@ -4,12 +4,12 @@
 		<meta charset="utf-8">
 		<title></title>
 		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
-		<link href="base.css" rel="stylesheet" type="text/css" />
-		<link href="style.css" rel="stylesheet" type="text/css" />
-		<link href="respond.css" rel="stylesheet" type="text/css" />
+		<link href="css/base.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link href="css/respond.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<div class="my-wrap" >
+		<class class="my-wrap" >
 			<div class="my-header-wrap">
 				<div class="flex my-header center">
 					<img  src="./images/logo2.png" class="logo" style="width: 580px;" />
@@ -27,9 +27,12 @@
 					</div>
 				</div>
 			</div>
-
-
-
+			<div id="mask-search">
+				<div class="flex mask-search-content">
+					<input type="text" value="Terraforming Mars Regular price"/>
+					<img  src="./images/metro-search.png" class="icon" id="searchBtn"/>
+				</div>
+			</div>
 			<div class="shop-wrap flex-column">
 				<div class="shop center">
 					<div class="flex crumbs">
@@ -65,8 +68,9 @@
 								</div>
 							</div>
 							<div class="flex top48 btn-list">
+								<a href="shoppingcart.html">
 								<button class="addbtn" id="addcard">ADD TO CART</button>
-								<button class="buybtn left60">BUY IT NOW</button>
+								<button class="buybtn left60">BUY IT NOW</button></a>
 							</div>
 							<p class="top60 div-center more">More payment options</p>
 						</div>
@@ -101,25 +105,26 @@
 							</div>
 						</div>
 					</div>
-					<div class="recommend-list top60">
+					<div class="recommend-list top60 bold">
 						<p class="div-center size48">You May Also Like</p>
 						<div class="top60 recommend-product-list flex">
 							<div class="recommend-product-item">
-								<a>
-									<img src="images/img1.png"/>
-									<p class="top12 size18 recommend-product-name">Eriantys</p>
+								<a href="detail3.html">
+									<img src="images/img1.png"/></a>
+									<p class="top12 size18 recommend-product-name"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">Eriantys</p>
 								</a>
-								<p class="recommend-product-price size24 top24">$49.99</p>
+								<p class="recommend-product-price size24 top24"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">$49.99</p>
 								<div class="add top24">
 									<button class="addcartbtn">ADD TO CART</button>
 								</div>
 							</div>
 							<div class="recommend-product-item">
 								<a>
-									<img src="images/img2.png"/>
-									<p class="top12 size18 recommend-product-name">Voices in my head</p>
+									<a href="detail2.html">
+									<img src="images/img2.png"/></a>
+									<p class="top12 size18 recommend-product-name"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">Voices in my head</p>
 								</a>
-								<p class="recommend-product-price size24 top24">$49.99</p>
+								<p class="recommend-product-price size24 top24"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">$49.99</p>
 								<div class="add top24">
 									<button class="addcartbtn">ADD TO CART</button>
 								</div>
@@ -127,19 +132,20 @@
 							<div class="recommend-product-item">
 								<a>
 									<img src="images/img3.png"/>
-									<p class="top12 size18 recommend-product-name">Disney Gargoyles: Awakening</p>
+									<p class="top12 size18 recommend-product-name"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">Disney Gargoyles: Awakening</p>
 								</a>
-								<p class="recommend-product-price size24 top24">$49.99</p>
+								<p class="recommend-product-price size24 top24"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">$49.99</p>
 								<div class="add top24">
 									<button class="addcartbtn">ADD TO CART</button>
 								</div>
 							</div>
 							<div class="recommend-product-item">
 								<a>
-									<img src="images/img4.png"/>
-									<p class="top12 size18 recommend-product-name">Terraforming Mars Regular price</p>
+									<a href="detail.html">
+									<img src="images/img4.png"/></a>
+									<p class="top12 size18 recommend-product-name"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">Terraforming Mars Regular price</p>
 								</a>
-								<p class="recommend-product-price size24 top24">$49.99</p>
+								<p class="recommend-product-price size24 top24"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">$49.99</p>
 								<div class="add top24">
 									<button class="addcartbtn">ADD TO CART</button>
 								</div>
@@ -147,9 +153,9 @@
 							<div class="recommend-product-item">
 								<a>
 									<img src="images/img5.png"/>
-									<p class="top12 size18 recommend-product-name">Dungeons & Dragons: Player’s Handbook Regular price</p>
+									<p class="top12 size18 recommend-product-name"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">Dungeons & Dragons: Player’s Handbook Regular price</p>
 								</a>
-								<p class="recommend-product-price size24 top24">$49.99</p>
+								<p class="recommend-product-price size24 top24"style="display:flex;flex-direction: column;/* justify-concent:center; */align-items:center">$49.99</p>
 								<div class="add top24">
 									<button class="addcartbtn">ADD TO CART</button>
 								</div>

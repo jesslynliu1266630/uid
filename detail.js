@@ -2,8 +2,6 @@ window.onload = function(){
 let search = document.querySelector('#search')
 					 let maskSearch = document.querySelector('#mask-search')
 					 let searchBtn = document.querySelector('#searchBtn')
-					 let menu = document.querySelector('.menu-wrap')
-					 let down = document.querySelector('#down-menu')
 					 let look = document.querySelector('#look')
 					 let imgMask = document.querySelector('#img-mask')
 					 let close = document.querySelector('#close')
@@ -14,15 +12,7 @@ let search = document.querySelector('#search')
 					 })
 					 
 					searchBtn.addEventListener('click',function(){
-					   location.href = 'search.html'
-					})
-						
-					menu.addEventListener('mouseenter',function(){
-						down.style.display = 'block'
-					})
-					
-					menu.addEventListener('mouseleave',function(){
-						down.style.display = 'none'
+					   location.href = 'searchresults.html'
 					})
 					
 					look.addEventListener('click',function(){
@@ -34,6 +24,6 @@ let search = document.querySelector('#search')
 					})
 					
 					add.addEventListener('click',function(){
-						location.href = "cart.html"
+						location.href = "shoppingcart.html"
 					})
 				}
