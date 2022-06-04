@@ -14,7 +14,7 @@ window.onload = function(){
     })
     
     menu.addEventListener('mouseenter',function(){
-        console.log('comein')
+        console.log('Comein')
         down.style.display = 'block'
     })
     
